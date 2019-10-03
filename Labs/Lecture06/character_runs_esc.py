@@ -24,7 +24,7 @@ while x < 800 and running:
     handle_events()
     frame = (frame + 1) % 8
     x += 5
-    delay(0.05)
+    delay(0.01)
 
 close_canvas()
 
